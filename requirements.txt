@@ -1,0 +1,6 @@
+pip install base64
+pip install opencv-python
+pip install mediapipe
+pip install python-math
+pip install screen-brightness-control
+pip install numpy
