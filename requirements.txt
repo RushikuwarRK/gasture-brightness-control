@@ -1,5 +1,5 @@
-pip install opencv-python
-pip install mediapipe
-pip install python-math
-pip install screen-brightness-control
-pip install numpy
+opencv-python
+mediapipe
+python-math
+screen-brightness-control
+numpy
