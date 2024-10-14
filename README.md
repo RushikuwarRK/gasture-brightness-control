@@ -18,13 +18,11 @@ brightness command (for macOS)
 Installation
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/RushikuwarRK/gesture-brightness-control.git
 Install the required Python libraries:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 For Linux users, ensure xrandr is installed:
 
@@ -32,6 +30,7 @@ sudo apt-get install x11-xserver-utils
 For macOS users, install brightness utility:
 
 brew install brightness
+
 Usage
 Run the Python script:
 python gesture_brightness_control.py
@@ -45,7 +44,7 @@ Press Q on your keyboard to exit the program.
 Configuration
 You can modify the sensitivity of gesture recognition and brightness adjustment by editing the configuration settings in the script:
 python
-Copy code
+
 # Adjust sensitivity
 GESTURE_SENSITIVITY = 0.1  # Lower value = more sensitive
 
